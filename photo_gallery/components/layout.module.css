@@ -1,0 +1,50 @@
+.galleryTitle {
+  font-size: 3em;
+  font-family: cursive;
+  text-align: center;
+}
+
+.galleryWrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  gap: 3.5%;
+}
+
+.galleryWrapSingle {
+  width: 200px;
+  padding: 5px;
+  cursor: zoom-in;
+}
+
+.galleryWrapSingleImg {
+  max-width: 100%;
+}
+
+.galleryWrapSingleImg:hover {
+  transform: scale(1.2);
+}
+
+.modalFullscreenWrap {
+  z-index: 999;
+}
+
+.modalSingleImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  max-height: 700px;
+  padding-bottom: 20px;
+}
+
+.modalButtonsWrap {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  right: 50%;
+}
